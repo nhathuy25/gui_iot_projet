@@ -6,7 +6,7 @@ root.title("Gestion des badges")
 root.geometry("800x600")
 tabs = tb.Notebook(root)
 
-# Tab for the database
+# Tab for the database      
 tab_database = tb.Frame(tabs)
 tabs.add(tab_database, text="Database")
 
